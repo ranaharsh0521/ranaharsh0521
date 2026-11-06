@@ -1,7 +1,7 @@
 <div align="center">
 
-<!-- ANIMATED HEADER WAVE -->
-<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=24,20,10,5,30&height=220&section=header&text=Harshil%20Rana&fontSize=50&fontColor=ffffff&animation=fadeIn&fontAlignY=38&desc=Software%20Engineer%20%E2%80%A2%20AI%20Systems%20%E2%80%A2%20Cybersecurity&descAlignY=58&descAlign=50" width="100%" />
+<!-- CUSTOM ANIMATED CYBER TERMINAL HEADER -->
+<img src="https://raw.githubusercontent.com/ranaharsh0521/ranaharsh0521/main/assets/header.svg" width="100%" alt="Harshil Rana - Developer & Systems Architect" />
 
 # <img src="https://raw.githubusercontent.com/MartinHeinz/MartinHeinz/master/wave.gif" width="38px"> Namaste & Welcome to My Universe!
 
@@ -209,6 +209,15 @@ engineer:
   <img src="https://streak-stats.demolab.com/?user=ranaharsh0521&theme=radical&hide_border=true" width="98%" alt="GitHub Streak" />
 </div>
 
+<div align="center" style="margin-top: 20px;">
+  <!-- RETRO CONTRIBUTIONS SNAKE ANIMATION -->
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ranaharsh0521/ranaharsh0521/output/github-contribution-grid-snake-dark.svg" />
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/ranaharsh0521/ranaharsh0521/output/github-contribution-grid-snake.svg" />
+    <img alt="GitHub Contribution Snake Animation" src="https://raw.githubusercontent.com/ranaharsh0521/ranaharsh0521/output/github-contribution-grid-snake-dark.svg" width="100%" />
+  </picture>
+</div>
+
 ---
 
 ### ⚡ The Hacker & Engineer Mindset
@@ -245,7 +254,7 @@ I'm always open to discussing cutting-edge AI, cybersecurity defense, and ground
 
 <br/>
 
-<!-- ANIMATED FOOTER WAVE -->
-<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=5,10,20,24,30&height=120&section=footer" width="100%" />
+<!-- CUSTOM ANIMATED CYBER HUD FOOTER -->
+<img src="https://raw.githubusercontent.com/ranaharsh0521/ranaharsh0521/main/assets/footer.svg" width="100%" alt="Harshil Rana Footer" />
 
 </div>

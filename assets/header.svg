@@ -1,0 +1,132 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 850 240" width="100%" height="240">
+  <defs>
+    <!-- Background Gradient -->
+    <linearGradient id="bgGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0a0e17" />
+      <stop offset="50%" stop-color="#101726" />
+      <stop offset="100%" stop-color="#070a10" />
+    </linearGradient>
+
+    <!-- Animated Border Gradient -->
+    <linearGradient id="borderGradient" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#00F5D4">
+        <animate attributeName="stop-color" values="#00F5D4; #7B2CBF; #F72585; #4361EE; #00F5D4" dur="8s" repeatCount="indefinite" />
+      </stop>
+      <stop offset="50%" stop-color="#F72585">
+        <animate attributeName="stop-color" values="#F72585; #00F5D4; #7B2CBF; #00BBF9; #F72585" dur="8s" repeatCount="indefinite" />
+      </stop>
+      <stop offset="100%" stop-color="#7B2CBF">
+        <animate attributeName="stop-color" values="#7B2CBF; #4361EE; #00F5D4; #F72585; #7B2CBF" dur="8s" repeatCount="indefinite" />
+      </stop>
+    </linearGradient>
+
+    <!-- Text Glow Filter -->
+    <filter id="neonGlow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="4" result="blur" />
+      <feMerge>
+        <feMergeNode in="blur" />
+        <feMergeNode in="SourceGraphic" />
+      </feMerge>
+    </filter>
+
+    <!-- Subtle Grid Pattern -->
+    <pattern id="cyberGrid" width="30" height="30" patternUnits="userSpaceOnUse">
+      <path d="M 30 0 L 0 0 0 30" fill="none" stroke="rgba(0, 245, 212, 0.05)" stroke-width="1" />
+    </pattern>
+  </defs>
+
+  <style>
+    .terminal-title { font-family: 'Fira Code', 'Courier New', monospace; font-size: 12px; fill: #64748b; }
+    .main-name { font-family: 'Segoe UI', system-ui, -apple-system, sans-serif; font-weight: 900; font-size: 42px; letter-spacing: 2px; }
+    .role-badge { font-family: 'Fira Code', monospace; font-size: 14px; font-weight: 600; fill: #94a3b8; }
+    .tag-badge { font-family: 'Fira Code', monospace; font-size: 11px; font-weight: 600; }
+    .status-text { font-family: 'Fira Code', monospace; font-size: 12px; font-weight: 600; fill: #00F5D4; }
+    
+    @keyframes pulseDot {
+      0% { r: 4px; opacity: 1; }
+      50% { r: 6px; opacity: 0.4; }
+      100% { r: 4px; opacity: 1; }
+    }
+    .pulse-dot {
+      animation: pulseDot 2s infinite ease-in-out;
+    }
+
+    @keyframes scanBeam {
+      0% { transform: translateY(0px); opacity: 0; }
+      30% { opacity: 0.25; }
+      70% { opacity: 0.25; }
+      100% { transform: translateY(220px); opacity: 0; }
+    }
+    .scan-beam {
+      animation: scanBeam 6s infinite linear;
+    }
+  </style>
+
+  <!-- Outer Card with Animated Glowing Border -->
+  <rect x="5" y="5" width="840" height="230" rx="14" fill="url(#bgGradient)" stroke="url(#borderGradient)" stroke-width="2.5" />
+
+  <!-- Cyber Grid Background Overlay -->
+  <rect x="6" y="6" width="838" height="228" rx="13" fill="url(#cyberGrid)" />
+
+  <!-- Animated Scanning Beam -->
+  <line x1="6" y1="10" x2="844" y2="10" stroke="#00F5D4" stroke-width="1.5" class="scan-beam" />
+
+  <!-- Terminal Window Top Bar -->
+  <path d="M 6 18 Q 6 6 18 6 L 832 6 Q 844 6 844 18 L 844 38 L 6 38 Z" fill="#131b2c" />
+  <line x1="6" y1="38" x2="844" y2="38" stroke="rgba(255,255,255,0.08)" stroke-width="1" />
+
+  <!-- Window Action Buttons (Red, Yellow, Green) -->
+  <circle cx="28" cy="22" r="6" fill="#ff5f56" />
+  <circle cx="48" cy="22" r="6" fill="#ffbd2e" />
+  <circle cx="68" cy="22" r="6" fill="#27c93f" />
+
+  <!-- Terminal Bar Center Text -->
+  <text x="425" y="26" text-anchor="middle" class="terminal-title">harshil-rana@quantum-core: ~ (zsh)</text>
+
+  <!-- Status Ping Pill (Top Right) -->
+  <rect x="660" y="14" width="168" height="18" rx="9" fill="rgba(0, 245, 212, 0.1)" stroke="rgba(0, 245, 212, 0.3)" stroke-width="1" />
+  <circle cx="674" cy="23" r="4.5" fill="#00F5D4" class="pulse-dot" />
+  <text x="686" y="27" class="status-text">SYSTEM: ONLINE</text>
+
+  <!-- Center Decorative Glow -->
+  <circle cx="425" cy="130" r="120" fill="rgba(0, 245, 212, 0.04)" filter="url(#neonGlow)" />
+
+  <!-- Main Hero Name -->
+  <text x="425" y="102" text-anchor="middle" class="main-name" fill="#FFFFFF" filter="url(#neonGlow)">
+    HARSHIL RANA
+  </text>
+
+  <!-- Subtitle / Title -->
+  <text x="425" y="132" text-anchor="middle" class="role-badge">
+    SOFTWARE DEVELOPER • AI SYSTEMS • CYBERSECURITY
+  </text>
+
+  <!-- Pill Badges / Tech Highlights -->
+  <g transform="translate(145, 160)">
+    <!-- Pill 1: Multi-Agent AI -->
+    <g transform="translate(0, 0)">
+      <rect x="0" y="0" width="165" height="28" rx="14" fill="rgba(123, 44, 191, 0.15)" stroke="#7B2CBF" stroke-width="1" />
+      <text x="82.5" y="18" text-anchor="middle" class="tag-badge" fill="#C77DFF">⚡ Multi-Agent AI</text>
+    </g>
+
+    <!-- Pill 2: Temporal GNNs -->
+    <g transform="translate(180, 0)">
+      <rect x="0" y="0" width="185" height="28" rx="14" fill="rgba(0, 245, 212, 0.15)" stroke="#00F5D4" stroke-width="1" />
+      <text x="92.5" y="18" text-anchor="middle" class="tag-badge" fill="#00F5D4">🛡️ Temporal GNN (TGNN)</text>
+    </g>
+
+    <!-- Pill 3: Full-Stack Systems -->
+    <g transform="translate(380, 0)">
+      <rect x="0" y="0" width="180" height="28" rx="14" fill="rgba(247, 37, 133, 0.15)" stroke="#F72585" stroke-width="1" />
+      <text x="90" y="18" text-anchor="middle" class="tag-badge" fill="#F72585">🚀 Next.js &amp; FastAPI</text>
+    </g>
+  </g>
+
+  <!-- Terminal Bottom Prompt Decoration -->
+  <text x="35" y="215" font-family="'Fira Code', monospace" font-size="12" fill="#475569">
+    <tspan fill="#00F5D4">&gt;</tspan> <tspan fill="#F72585">innovate</tspan> --scale=high-throughput --resilience=maximum --status=ready
+  </text>
+  <text x="815" y="215" text-anchor="end" font-family="'Fira Code', monospace" font-size="12" fill="#334155">
+    v2.6.0 [STABLE]
+  </text>
+</svg>
