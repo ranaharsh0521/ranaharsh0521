@@ -132,6 +132,7 @@ engineer:
     <td width="50%" valign="top">
       <h3>📈 <a href="https://github.com/ranaharsh0521/Autobot">HARSH TRADER AI</a></h3>
       <p><em>Autonomous Multi-Agent Indian Stock Market Intelligence Engine</em></p>
+      <p>🔗 <strong>URL:</strong> <a href="https://github.com/ranaharsh0521/Autobot">https://github.com/ranaharsh0521/Autobot</a></p>
       <ul>
         <li>🤖 Multi-agent consensus mechanism evaluating live stock feeds.</li>
         <li>⚡ Ultra low-latency WebSockets streaming realtime orderflow & signals.</li>
@@ -147,6 +148,7 @@ engineer:
     <td width="50%" valign="top">
       <h3>🛡️ <a href="https://github.com/ranaharsh0521/Asset-Analyzer">AI Cyber Attack Prediction (TGNN)</a></h3>
       <p><em>Temporal Graph Neural Networks for Next-Gen SOC Threat Defense</em></p>
+      <p>🔗 <strong>URL:</strong> <a href="https://github.com/ranaharsh0521/Asset-Analyzer">https://github.com/ranaharsh0521/Asset-Analyzer</a></p>
       <ul>
         <li>🔬 Temporal Graph Neural Network trained on CICIDS2017 datasets.</li>
         <li>🌐 Interactive React SOC dashboard with node topology & MITRE mapping.</li>
@@ -164,6 +166,7 @@ engineer:
     <td width="50%" valign="top">
       <h3>🔍 <a href="https://github.com/ranaharsh0521/CodeGuardAi">CodeGuard AI</a></h3>
       <p><em>AI-Powered Automated Code Vulnerability & Security Scanner</em></p>
+      <p>🔗 <strong>URL:</strong> <a href="https://github.com/ranaharsh0521/CodeGuardAi">https://github.com/ranaharsh0521/CodeGuardAi</a></p>
       <ul>
         <li>🔎 Static code analyzer discovering critical CVEs, code smells, & bugs.</li>
         <li>💡 AI-assisted automatic code remediation and fix generation.</li>
@@ -179,6 +182,7 @@ engineer:
     <td width="50%" valign="top">
       <h3>🍲 <a href="https://github.com/ranaharsh0521/Recipe-Manager---AI-Powered-MERN-Stack-Application-v2.0">AI Recipe Manager v2.0</a></h3>
       <p><em>Full-Stack MERN Platform with Intelligent Culinary AI Engine</em></p>
+      <p>🔗 <strong>URL:</strong> <a href="https://github.com/ranaharsh0521/Recipe-Manager---AI-Powered-MERN-Stack-Application-v2.0">https://github.com/ranaharsh0521/Recipe-Manager---AI-Powered-MERN-Stack-Application-v2.0</a></p>
       <ul>
         <li>🍳 AI-driven recipe generation, dynamic ingredient scaling, & nutrition charts.</li>
         <li>🔐 Secure JWT role authentication, cloud image upload, and search filters.</li>
@@ -192,7 +196,60 @@ engineer:
       </p>
     </td>
   </tr>
+  <tr>
+    <td width="50%" valign="top">
+      <h3>💼 <a href="https://github.com/ranaharsh0521/FundsroomChallenge">Mini ERP + CRM Portal</a></h3>
+      <p><em>Production-Style Enterprise Operations & Resource Engine</em></p>
+      <p>🔗 <strong>URL:</strong> <a href="https://github.com/ranaharsh0521/FundsroomChallenge">https://github.com/ranaharsh0521/FundsroomChallenge</a></p>
+      <ul>
+        <li>📊 Integrated enterprise workflows for customer lifecycle, leads, and financials.</li>
+        <li>🔐 Modular role-based authorization (RBAC) with secure session handling.</li>
+        <li>⚡ Real-time audit logs, high-throughput data tables, and analytics reporting.</li>
+      </ul>
+      <p>
+        <img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white" />
+        <img src="https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB" />
+        <img src="https://img.shields.io/badge/Tailwind-38B2AC?style=flat-square&logo=tailwind-css&logoColor=white" />
+      </p>
+    </td>
+    <td width="50%" valign="top">
+      <h3>🍯 <a href="https://github.com/ranaharsh0521/Honey-Net">Honey-Net Security Platform</a></h3>
+      <p><em>Decoy Network & Threat Intelligence Emulation System</em></p>
+      <p>🔗 <strong>URL:</strong> <a href="https://github.com/ranaharsh0521/Honey-Net">https://github.com/ranaharsh0521/Honey-Net</a></p>
+      <ul>
+        <li>🛡️ Distributed honeypot architecture capturing unauthorized probing and exploits.</li>
+        <li>🚨 Automated attacker payload extraction, intrusion logging, & behavioral profiling.</li>
+        <li>📑 Actionable threat intelligence reports to reinforce perimeter defenses.</li>
+      </ul>
+      <p>
+        <img src="https://img.shields.io/badge/Cybersecurity-FF0000?style=flat-square&logo=shield&logoColor=white" />
+        <img src="https://img.shields.io/badge/Threat_Intel-0A85EA?style=flat-square" />
+        <img src="https://img.shields.io/badge/Network_Security-333333?style=flat-square" />
+      </p>
+    </td>
+  </tr>
 </table>
+
+---
+
+### 📂 All Repositories & Projects Directory
+
+| Project Name | Domain / Category | Tech Stack | Repository URL (Clickable) |
+| :--- | :--- | :--- | :--- |
+| **HARSH TRADER AI** | Autonomous Trading Engine | FastAPI, React, Vite, WebSockets | [https://github.com/ranaharsh0521/Autobot](https://github.com/ranaharsh0521/Autobot) |
+| **TGNN Cyber Defense** | Temporal Graph Neural Networks | PyTorch, FastAPI, React, PostgreSQL | [https://github.com/ranaharsh0521/Asset-Analyzer](https://github.com/ranaharsh0521/Asset-Analyzer) |
+| **CodeGuard AI** | Automated Vulnerability Scanner | Next.js, FastAPI, Python AST, Tailwind | [https://github.com/ranaharsh0521/CodeGuardAi](https://github.com/ranaharsh0521/CodeGuardAi) |
+| **AI Recipe Manager v2.0** | Full-Stack Culinary AI Platform | MongoDB, Express, React, Node.js | [https://github.com/ranaharsh0521/Recipe-Manager---AI-Powered-MERN-Stack-Application-v2.0](https://github.com/ranaharsh0521/Recipe-Manager---AI-Powered-MERN-Stack-Application-v2.0) |
+| **Fundsroom ERP / CRM** | Operations & Business Portal | TypeScript, React, Tailwind CSS | [https://github.com/ranaharsh0521/FundsroomChallenge](https://github.com/ranaharsh0521/FundsroomChallenge) |
+| **Honey-Net Security** | Honeypot & Threat Intel Decoy | Cybersecurity, Intrusion Logging, Shell | [https://github.com/ranaharsh0521/Honey-Net](https://github.com/ranaharsh0521/Honey-Net) |
+| **MarketTunner** | AI Automation Platform | TypeScript, Full-Stack Web | [https://github.com/ranaharsh0521/MarketTunner](https://github.com/ranaharsh0521/MarketTunner) |
+| **Invoice Processing System** | Intelligent Document Processing | Python, Document AI, OCR | [https://github.com/ranaharsh0521/Invoice-Processing-System](https://github.com/ranaharsh0521/Invoice-Processing-System) |
+| **.Net Calculator** | Desktop System Application | C#, .NET Framework | [https://github.com/ranaharsh0521/.Net-calculator](https://github.com/ranaharsh0521/.Net-calculator) |
+| **Calculator-.Net** | Mathematics Engine | C#, .NET Architecture | [https://github.com/ranaharsh0521/Calculator-.Net](https://github.com/ranaharsh0521/Calculator-.Net) |
+| **Windows Calculator** | UI Utility Application | C#, Windows Forms | [https://github.com/ranaharsh0521/-windows-Calculater-](https://github.com/ranaharsh0521/-windows-Calculater-) |
+| **OBISIB Machine Learning** | ML Predictive Models & Analytics | Jupyter Notebook, Python, Pandas | [https://github.com/ranaharsh0521/OBISIB](https://github.com/ranaharsh0521/OBISIB) |
+| **AI Web Platform (My First Project)** | Web Application with AI | Full-Stack, AI API Integration | [https://github.com/ranaharsh0521/my-first-project](https://github.com/ranaharsh0521/my-first-project) |
+| **Harshil Rana Profile Core** | GitHub Profile Ecosystem | Markdown, SVG, GitHub Actions | [https://github.com/ranaharsh0521/ranaharsh0521](https://github.com/ranaharsh0521/ranaharsh0521) |
 
 ---
 
