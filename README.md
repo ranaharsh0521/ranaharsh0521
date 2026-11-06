@@ -1,4 +1,4 @@
-# Hello! I'm Harsha Rana
+# Hello! I'm Harshil Rana
 
 Welcome to my GitHub profile! I'm a passionate developer with a strong focus on building impactful applications. Below is an overview of my skills, projects, and other fun information about me.
 
