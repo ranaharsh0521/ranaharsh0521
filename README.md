@@ -148,7 +148,8 @@ engineer:
     <td width="50%" valign="top">
       <h3>🛡️ <a href="https://github.com/ranaharsh0521/Asset-Analyzer">AI Cyber Attack Prediction (TGNN)</a></h3>
       <p><em>Temporal Graph Neural Networks for Next-Gen SOC Threat Defense</em></p>
-      <p>🔗 <strong>URL:</strong> <a href="https://github.com/ranaharsh0521/Asset-Analyzer">https://github.com/ranaharsh0521/Asset-Analyzer</a></p>
+      <p>🔗 <strong>URL:</strong> <a href="https://github.com/ranaharsh0521/Asset-Analyzer">https://github.com/ranaharsh0521/Asset-Analyzer</a><br/>
+      🌐 <strong>Live Demo:</strong> <a href="http://resilient-churros-5cf06c.netlify.app">https://resilient-churros-5cf06c.netlify.app</a> <em>(Pass: My-Drop-Site)</em></p>
       <ul>
         <li>🔬 Temporal Graph Neural Network trained on CICIDS2017 datasets.</li>
         <li>🌐 Interactive React SOC dashboard with node topology & MITRE mapping.</li>
